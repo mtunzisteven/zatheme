@@ -23,6 +23,6 @@ function zatheme_add_theme_scripts() {
   wp_enqueue_script('script-js');// scripts in zatheme added/enqueued
 
 }
-add_action( 'wp_enqueue_scripts', 'zatheme_add_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'zatheme_add_theme_scripts' ); // hooked zatheme_add_theme_scripts to wp_enqueue_scripts action(hook)
 
 ?>
