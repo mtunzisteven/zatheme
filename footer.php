@@ -7,8 +7,14 @@
 
  ?>
 
-<footer>Footer</footer>
-<?php wp_footer();// to load wp scripts ?> 
+                <footer>Footer</footer>
 
-</body>
+
+            </div>
+
+        </div>
+
+    <?php wp_footer();// to load wp scripts ?> 
+
+    </body>
 </html>
