@@ -12,11 +12,10 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html lang="<?php language_attributes(); ?>">
+<html <?php language_attributes(); ?>>
     <head>
         <meta charset="<?php bloginfo(); ?>">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>WordPress Theme</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head();// to load wp styles and scripts ?>

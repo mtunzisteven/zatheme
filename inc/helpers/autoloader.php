@@ -14,6 +14,7 @@ namespace ZATHEME_THEME\Inc\Helpers;
  *
  * @return void
 */
+
 function autoloader( $resource = '' ) {
 
 	$resource_path  = false;
@@ -32,10 +33,6 @@ function autoloader( $resource = '' ) {
 		'\\',
 		str_replace( '_', '-', strtolower( $resource ) )
 	);
-
-
-    print_r($path);
-    wp_die();
 
 	/**
 	 * Time to determine which type of resource path it is,
